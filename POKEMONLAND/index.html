@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PokemonLand</title>
+    <link rel="icon" href="./images/logito.ico">
+    <style>
+        .section-title {
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sono:wght@200;300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link href="css/templatemo-pod-talk.css" rel="stylesheet">
+
+    <!--
+
+TemplateMo 584 Pod Talk
+
+https://templatemo.com/tm-584-pod-talk
+
+-->
+</head>
+
+<body>
+
+    <header>
+        <center><a class="nav-link active" href="index.html"><img src="./images/pokencitto.gif" alt="Logo Pokedex"
+                    width="1000px" height="300px"></a></center>
+
+        <div class="container mt-5">
+            <div class="search-box">
+                <label for="search-input" class="form-label">Nombre o número</label>
+                <div class="input-group">
+                    <input type="text" id="search-input" class="form-control" placeholder="Escribe aquí...">
+                    <button class="btn btn-orange" id="search-btn">
+                        <i class="fas fa-search">Buscar</i>
+                    </button>
+                </div>
+                <small class="form-text text-muted section-title">
+                    ¡USA ESTA BUSQUEDA CON SOLO PONER EL NOMBRE O NUMERO!
+                </small>
+            </div>
+            <!-- Contenedor para mostrar los resultados de la búsqueda -->
+            <div id="pokemon-result" class="mt-4"></div>
+        </div>
+
+        <nav class="nav">
+            <h1 class="section-title">BUSCAR POR PODERES:</h1>
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn btn-header" id="ver-todos">Ver todos</button></li>
+                <li class="nav-item"><button class="btn btn-header normal" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn btn-header fire" id="fire">Fire</button></li>
+                <li class="nav-item"><button class="btn btn-header water" id="water">Water</button></li>
+                <li class="nav-item"><button class="btn btn-header grass" id="grass">Grass</button></li>
+                <li class="nav-item"><button class="btn btn-header electric" id="electric">Electric</button></li>
+                <li class="nav-item"><button class="btn btn-header ice" id="ice">Ice</button></li>
+                <li class="nav-item"><button class="btn btn-header fighting" id="fighting">Fighting</button></li>
+                <li class="nav-item"><button class="btn btn-header poison" id="poison">Poison</button></li>
+                <li class="nav-item"><button class="btn btn-header ground" id="ground">Ground</button></li>
+                <li class="nav-item"><button class="btn btn-header flying" id="flying">Flying</button></li>
+                <li class="nav-item"><button class="btn btn-header psychic" id="psychic">Pyschic</button></li>
+                <li class="nav-item"><button class="btn btn-header bug" id="bug">Bug</button></li>
+                <li class="nav-item"><button class="btn btn-header rock" id="rock">Rock</button></li>
+                <li class="nav-item"><button class="btn btn-header ghost" id="ghost">Ghost</button></li>
+                <li class="nav-item"><button class="btn btn-header dark" id="dark">Dark</button></li>
+                <li class="nav-item"><button class="btn btn-header dragon" id="dragon">Dragon<Dragon</button></li>
+                <li class="nav-item"><button class="btn btn-header steel" id="steel">Steel</button></li>
+                <li class="nav-item"><button class="btn btn-header fairy" id="fairy">Fairy</button></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <div class="text-center mb-5 pb-2">
+                            <h1 class="text-light">POKÉMONES CHINGONES</h1>
+
+                            <p class="text-personalizado fw-bolder">LISTA DE LOS POKEMONES MÁS CHINGONES EN BATALLA</p>
+                        </div>
+
+                        <div class="owl-carousel owl-theme aletaorio">
+                            <!--Lista de pokemones aleatorios me-->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <main>
+
+            <div id="todos">
+                <div class="pokemon-todos" id="listaPokemon">
+                    <!-- <div class="pokemon">
+                        <p class="pokemon-id-back">#025</p>
+                        <div class="pokemon-imagen">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu">
+                        </div>
+                        <div class="pokemon-info">
+                            <div class="nombre-contenedor">
+                                <p class="pokemon-id">#025</p>
+                                <h2 class="pokemon-nombre">Pikachu</h2>
+                            </div>
+                            <div class="pokemon-tipos">
+                                <p class="electric tipo">ELECTRIC</p>
+                                <p class="fighting tipo">FIGHTING</p>
+                            </div>
+                            <div class="pokemon-stats">
+                                <p class="stat">4m</p>
+                                <p class="stat">60kg</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- Paginación -->
+                <nav class="pagination" aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center mt-2">
+                        <li class="page-item" id="prev-btn">
+                            <a class="page-link" href="#">Previous</a>
+                        </li>
+                        <li class="page-item" id="next-btn">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+        </main>
+
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                        <div class="subscribe-form-wrap">
+                            <h6>INGRESA TU CORREO! :D</h6>
+
+                            <form class="custom-form subscribe-form" action="#" method="get" role="form">
+                                <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*"
+                                    class="form-control" placeholder="Email Address" required="">
+
+                                <div class="col-lg-12 col-12">
+                                    <button type="submit" class="form-control" id="submit">subscribete a POKEMONES
+                                        EMPODERADOS!</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Contactame ahora y siempre pikachu</h6>
+
+                        <p class="mb-2"><strong class="d-inline me-2">Phone:</strong> 010-020-0340</p>
+
+                        <p>
+                            <strong class="d-inline me-2">Email:</strong>
+                            <a href="#">quemirassapo@pod.co</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- Scripts necesarios -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="./js/pokemondex.js"></script>
+
+</body>
+
+</html>
